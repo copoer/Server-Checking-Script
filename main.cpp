@@ -69,10 +69,7 @@ int main() {
 	int n = 1;
 	while (n>0) {	
 		system("clear");
-		list("63.142.254.28:80", "offnet.ca");
-		list("167.114.219.246:80", "ooper.space");
-		list("167.114.219.246:80", "oublie.co");
-		list("192.168.2.26:8118", "home");
+		list("IPADDRESS:PORT", "NAME OF SERVER");
 		sleep(60);
 	}
 	return 0;
